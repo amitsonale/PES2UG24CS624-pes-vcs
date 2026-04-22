@@ -15,11 +15,11 @@ Objects are stored inside `.pes/objects` using sharded directories, and object i
 
 ### Screenshot 1A: `./test_objects` Output
 
-![Screenshot 1A](screenshots/test_objects.png)
+![Screenshot 1A](screenshots/os 1.jpeg)
 
 ### Screenshot 1B: `.pes/objects` Directory Structure
 
-![Screenshot 1B](screenshots/pes-objects.png)
+![Screenshot 1B](screenshots/os2.jpeg)
 
 ---
 
@@ -30,11 +30,11 @@ Tree objects store file and directory entries using modes, names, and object has
 
 ### Screenshot 2A: `./test_tree` Output
 
-![Screenshot 2A](screenshots/test_tree.png)
+![Screenshot 2A](screenshots/os 3.jpeg)
 
 ### Screenshot 2B: Raw Object Using `xxd`
 
-![Screenshot 2B](screenshots/xxd.png)
+![Screenshot 2B](screenshots/os 4.jpeg)
 
 ---
 
@@ -45,11 +45,11 @@ The index stores staged file metadata including mode, blob hash, modification ti
 
 ### Screenshot 3A: `pes init`, `pes add`, and `pes status`
 
-![Screenshot 3A](screenshots/3A.png)
+![Screenshot 3A](screenshots/os 5.jpeg)
 
 ### Screenshot 3B: `.pes/index` Contents
 
-![Screenshot 3B](screenshots/pes-index.png)
+![Screenshot 3B](screenshots/)
 
 ---
 
@@ -60,15 +60,15 @@ Each commit stores tree hash, parent commit, author, timestamp, and commit messa
 
 ### Screenshot 4A: `./pes log` Output
 
-![Screenshot 4A](screenshots/pes-logs.png)
+![Screenshot 4A](screenshots/os 7.jpeg)
 
 ### Screenshot 4B: `.pes` Files After Three Commits
 
-![Screenshot 4B](screenshots/4B.png)
+![Screenshot 4B](screenshots/os 8.jpeg)
 
 ### Screenshot 4C: HEAD and Branch Reference
 
-![Screenshot 4C](screenshots/4C.png)
+![Screenshot 4C](screenshots/os 9.jpeg)
 
 ---
 
@@ -78,9 +78,9 @@ The final integration test verifies repository initialization, staging, committi
 
 ### Screenshot: `make test-integration`
 
-![Final Integration Test Part 1](screenshots/test-inte1.png)
+![Final Integration Test Part 1](screenshots/os 10.jpeg)
 
-![Final Integration Test Part 2](screenshots/test-inte2.png)
+![Final Integration Test Part 2](screenshots/os 11.jpeg)
 
 ---
 
