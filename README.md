@@ -47,9 +47,6 @@ The index stores staged file metadata including mode, blob hash, modification ti
 
 ![Screenshot 3A](screenshots/os_5.jpeg)
 
-### Screenshot 3B: `.pes/index` Contents
-
-![Screenshot 3B](screenshots/)
 
 ---
 
